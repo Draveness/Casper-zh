@@ -369,6 +369,10 @@ pre code, pre tt {
     padding: 0;
 }
 
+code {
+   word-wrap: normal;
+}
+
 kbd {
     display: inline-block;
     margin-bottom: 0.4em;
