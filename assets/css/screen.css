@@ -99,6 +99,37 @@ input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
+.navigation__item {
+    display: inline-block;
+    margin: 5px 10px 0 0;
+    line-height: 1em; 
+}
+.navigation__item a {
+    color: rgb(222,222,222);
+    display: block;
+    position: relative;
+    border-color: #FFF;
+    opacity: .8; 
+    width: 20px;
+    height: 20px;
+}
+.navigation__item a:hover {
+    color: #800000;
+    border-color: #FFF;
+    opacity: 1; 
+}
+
+.navigation--social a {
+    border: 0px;
+    padding: 6px 8px 6px 9px; 
+}
+.navigation__item a .label {
+    display: none; 
+}
+.navigation__item a .icon {
+    display: block;
+    font-size: 1.7em; 
+}
 
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
@@ -366,6 +397,10 @@ pre code, pre tt {
     background: transparent;
     border: none;
     padding: 0;
+}
+
+code {
+   word-wrap: normal;
 }
 
 kbd {
@@ -908,6 +943,13 @@ body.nav-opened .nav {
     animation: fade-in-down 0.9s;
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.1s;
+}
+
+.page-social {
+    -webkit-animation: fade-in-down 0.9s;
+    animation: fade-in-down 0.9s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
