@@ -901,16 +901,16 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 12rem;
     letter-spacing: -1px;
-    font-weight: 700;
+    font-weight: 200;
     font-family: inherit;
     color: #fff;
 }
 
 .page-description {
     margin: 0;
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 1.5em;
     font-weight: 400;
     letter-spacing: 0.01rem;
