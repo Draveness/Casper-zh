@@ -10,7 +10,8 @@
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
         {{#if @blog.navigation}}
-            <a class="menu-button icon-menu" href="#"><span class="word">菜单</span></a>
+            <a class="back-button icon-arrow-left" href="http://draveness.me">Home</a>
+            <a class="subscribe-button icon-feed" href="http://draveness.me/rss">Subscribe</a>
         {{/if}}
     </nav>
 </header>
