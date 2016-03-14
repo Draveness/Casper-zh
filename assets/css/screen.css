@@ -718,34 +718,6 @@ body.nav-opened .nav {
     color: #fff;
 }
 
-.subscribe-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    right: 30px;
-    height: 38px;
-    padding: 0 20px;
-    color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
-    text-align: center;
-    font-size: 12px;
-    font-family: inherit;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 35px;
-    border-radius: 3px;
-    background: #fff;
-    transition: all ease 0.3s;
-}
-.subscribe-button:before {
-    font-size: 9px;
-    margin-right: 6px;
-}
-
-
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
     display: block;
@@ -1883,21 +1855,27 @@ body:not(.post-template) .post-title {
         height: 30px;
     }
 
-    .menu-button {
-        padding: 0 5px;
+    .back-button,
+    .subscribe-button {
+        height: 44px;
+        line-height: 41px;
         border-radius: 0;
-        border-width: 0;
         color: #2e2e2e;
         background: transparent;
     }
-    .menu-button:hover {
+    .back-button:hover,
+    .subscribe-button:hover {
+        border-color: #ebeef0;
         color: #2e2e2e;
-        border-color: transparent;
-        background: none;
+        background: #ebeef0;
     }
-    body.nav-opened .menu-button {
-        background: none;
-        border: transparent;
+
+    .back-button {
+        padding: 0 15px 0 10px;
+    }
+
+    .subscribe-button {
+        padding: 0 12px;
     }
 
     .main-nav.overlay a:hover {
@@ -1909,11 +1887,13 @@ body:not(.post-template) .post-title {
     .no-cover .main-nav.overlay {
         background: none;
     }
-    .no-cover .main-nav.overlay .menu-button {
+    .no-cover .main-nav.overlay .back-button,
+    .no-cover .main-nav.overlay .subscribe-button {
         border: none;
     }
 
-    .main-nav.overlay .menu-button {
+    .main-nav.overlay .back-button,
+    .main-nav.overlay .subscribe-button {
         border-color: transparent;
     }
 
