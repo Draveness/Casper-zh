@@ -1744,6 +1744,11 @@ body:not(.post-template) .post-title {
         margin-left: 0;
     }
 
+    .loading > .item {
+        width: 10px;
+        height: 10px;
+    }
+
     .main-header {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -1881,6 +1886,11 @@ body:not(.post-template) .post-title {
     .main-header {
         margin-bottom: 15px;
         height: 40vh;
+    }
+
+    .loading > .item {
+        width: 8px;
+        height: 8px;
     }
 
     .no-cover.main-header {
