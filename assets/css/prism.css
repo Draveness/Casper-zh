@@ -299,7 +299,8 @@ div.prism-show-language > div.prism-show-language-label {
 	right: 0;
 	width: auto;
 	height: auto;
-	font-size: 0.9em;
+	font-size: 0.7em;
+	font-family: 'Source Code Pro', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	border-radius: 0 0 0 5px;
 	padding: 0 0.5em;
 	text-shadow: none;
