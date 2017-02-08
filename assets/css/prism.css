@@ -8,7 +8,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: white;
 	background: none;
-	font-family: 'Source Code Pro', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: source-code-pro, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	#text-shadow: 0 -.1em .2em black;
 	white-space: pre;
@@ -300,7 +300,7 @@ div.prism-show-language > div.prism-show-language-label {
 	width: auto;
 	height: auto;
 	font-size: 0.7em;
-	font-family: 'Source Code Pro', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: source-code-pro, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	border-radius: 0 0 0 5px;
 	padding: 0 0.5em;
 	text-shadow: none;
